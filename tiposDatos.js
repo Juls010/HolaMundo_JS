@@ -86,6 +86,65 @@ let todasFrutas = frutas.concat(masFrutas);
 //console.log(todasFrutas);
 
 
+/* Iterrar Array
 for(let i = 0; i < frutas.length; i++){
     console.log(`Fruta en índice ${i}: ${frutas[i]}`);
+}*/
+
+
+/*for (const fruta of frutas){
+    console.log(`Me gusta la ${fruta}`);
 }
+
+frutas.forEach(function(fruta, indice){
+    console.log(`La fruta ${fruta} está en el índice ${indice}`);
+});*/
+
+/* Array de alto orden
+const numerosOriginales = [1,2,3];
+const numerosDuplicados = numerosOriginales.map(num => num * 2);
+console.log(numerosDuplicados);
+
+const pares = numerosOriginales.filter(num => num % 2 === 0);
+console.log(pares);
+
+const sumaTotal = numerosOriginales.reduce((acumulador, valorActual) => acumulador + valorActual, 0);
+console.log(sumaTotal);*/
+
+/* Declaración objeto literal
+
+let persona = {
+    nombre: "Julia",
+    apellido: "Naranjo",
+    edad: 28, 
+    ocupacion: "Estudiante",
+    hobbies: ["jugar", "viajar", "deporte"],
+    direccion: {
+        calle: "Matías Vela n3",
+        ciudad: "Sevilla",
+        cp: "41120"
+    },
+    saludar: function() {
+        console.log(`Hola, soy ${this.nombre} ${this.apellido} y tengo ${this.edad} años.`);
+    },
+    presentarse() {
+        console.log(`Mi ocupación es ${this.ocupacion}`);
+    }
+};
+
+persona.saludar();
+persona.presentarse();
+persona.ocupacion = "Pastelera";
+console.log(persona.ocupacion);
+persona.email = "juliaGimena00@gmail.com";
+console.log(persona.email);
+delete persona.hobbies;
+console.log(persona.hobbies);
+
+for (const clave in persona) {
+    console.log(`${clave} : ${persona}`);
+}
+
+console.log(Object.keys(persona));
+console.log(Object.values(persona));
+console.log(Object.entries(persona));*/
