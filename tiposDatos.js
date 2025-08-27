@@ -53,37 +53,37 @@ while(contador < 3) {
     contador++;
 }*/
 
-
+/*
 let frutas = ["Manzana","Fresa","Pera","Melocotón"];
 let numeros = [3,5,7];
 let mezclado = [1, "Hola", true, {clave : "valor"}];
 
-//console.log(frutas[0]);
-//console.log(frutas[1]);
-//console.log(frutas[frutas.length-1]);
-//console.log(frutas.length);
+console.log(frutas[0]);
+console.log(frutas[1]);
+console.log(frutas[frutas.length-1]);
+console.log(frutas.length);
 
 frutas[0] = "Mango";
-//console.log(frutas[0]);
+console.log(frutas[0]);
 frutas.push("Naranja");
 frutas.unshift("Cereza");
-//console.log(frutas);
+console.log(frutas);
 
 frutas.pop();
 frutas.shift();
-//console.log(frutas);
+console.log(frutas);
 
 let indiceFresa = frutas.indexOf("Fresa");
-//console.log(indiceFresa);
+console.log(indiceFresa);
 
 frutas.splice(1,1);
-//console.log(frutas);
+console.log(frutas);
 
 let copiaFrutas = frutas.slice();
 let subFrutas = frutas.slice(0,1);
 let masFrutas = ["Uva","Kiwi"];
 let todasFrutas = frutas.concat(masFrutas);
-//console.log(todasFrutas);
+console.log(todasFrutas); */
 
 
 /* Iterrar Array
