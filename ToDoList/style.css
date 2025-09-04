@@ -18,9 +18,11 @@ h1 {
     margin-top: 30px;
     margin-bottom: 30px;
     width: 30%;
+    border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+    background-color: rgb(243, 237, 247);
+    box-shadow: 5px 10px 40px #4d7ab3;
     padding: 30px;
 }
 
@@ -37,12 +39,14 @@ form {
 input {
     padding: 15px 10px;
     outline: none;
-    border-color: #94BBE9;
-    width: 400px;
+    border: 2px solid #94BBE9;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .li-container {
-    background-color: white;
+    background-color:rgb(243, 237, 247);
     width: 100%;
     color: darkslategray;
     margin-top: 20px;
@@ -54,7 +58,7 @@ ul {
 
 li {
     list-style: none;
-    background-color: rgb(236, 234, 234);
+    background-color: rgb(248, 247, 247);
     border-radius: 10px;
     margin-top: 15px;
     display: flex;
@@ -71,8 +75,12 @@ li p {
     border: none;
     background-color: #D1759B;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     font-weight: bold;
-    padding: 5px 10px;
+    padding: 5px 15px;
     outline: none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -82,7 +90,7 @@ li p {
 
 .btn-delete:hover {
     cursor: pointer;
-    background-color: lightseagreen;
+    background-color: #bd5b84;
 }
 
 .btn-add {
